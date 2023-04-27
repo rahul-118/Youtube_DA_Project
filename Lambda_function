@@ -1,3 +1,6 @@
+# This functions purpose is to convert the Json raw data into cleaned parquet format data in order to run queries on it and get insights
+
+
 #awswrangler lib is used access files that are stored in S3. for direct access
 import awswrangler as wr 
 import pandas as pd
